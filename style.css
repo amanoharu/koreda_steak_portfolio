@@ -1,59 +1,64 @@
 body,
 html {
-  height: 100%;
-  margin: 0 auto;
+    height: 100%;
+    margin: 0 auto;
 
 }
 
 /*font*/
-.ten_mincho{
-    font-family: ten-mincho, serif !important;
-    font-weight: normal !important;
-    font-style: normal !important;
-}
-/*font*/
-.ten_mincho_blod{
+.ten_mincho {
     font-family: ten-mincho, serif !important;
     font-weight: normal !important;
     font-style: normal !important;
 }
 
-.button_red_color{
+/*font*/
+.ten_mincho_blod {
+    font-family: ten-mincho, serif !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+
+.button_red_color {
     background-color: #e60012;
 }
 
-.text_red_color{
+.text_red_color {
     color: #e60012;
 }
-.text_black_color{
+
+.text_black_color {
     color: #000000 !important;
 }
-.text_white_color{
+
+.text_white_color {
     color: #ffffff !important;
 }
 
-.main_yellow{
+.main_yellow {
     background-color: #f2df3c;
 }
 
 /*top*/
 
-.top_flex_area{
+.top_flex_area {
     width: 100% !important;
     display: flex;
     position: relative;
 }
-.top_flex_area .top_midasi_img_area{
+
+.top_flex_area .top_midasi_img_area {
     width: calc(50% - 150px);
     height: 700px;
 }
 
-.top_flex_area img{
+.top_flex_area img {
     object-fit: cover;
     width: 100%;
     height: 800px;
 }
-.top_midasi_area{
+
+.top_midasi_area {
     width: 300px !important;
     background-image: url('https://www.venture-foods.com/wp-content/uploads/2022/01/石壁レイアウト.jpg');
     background-repeat: no-repeat;
@@ -62,24 +67,24 @@ html {
     box-sizing: border-box;
 }
 
-.top_logo_area{
+.top_logo_area {
     width: calc(100% - 60px) !important;
     height: 100px !important;
     margin: 30px 30px 0 30px;
 }
 
-.top_logo{
+.top_logo {
     object-fit: contain !important;
     width: 100% !important;
     height: 100px !important;
 }
 
-.top_midasi{
-    
+.top_midasi {
+
     width: 300px;
     text-align: center;
     color: #ffffff;
-    writing-mode:vertical-rl;
+    writing-mode: vertical-rl;
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -88,21 +93,23 @@ html {
     font-size: 55px;
 }
 
-.top_midasi span:nth-child(1){
+.top_midasi span:nth-child(1) {
     display: inline-block;
     padding-left: 5px;
 }
-.top_midasi span:nth-child(2){
+
+.top_midasi span:nth-child(2) {
     display: inline-block;
     padding-right: 5px;
 }
 
-.top_scroll_button_area{
+.top_scroll_button_area {
     width: 100%;
     text-align: center;
     margin-top: 50px;
 }
-.top_bottom_scroll_button{
+
+.top_bottom_scroll_button {
     background-color: transparent;
     color: #ffffff;
     width: 70px;
@@ -113,11 +120,12 @@ html {
     transition: 0.3s;
     cursor: pointer;
 }
-.top_bottom_scroll_button:hover{
+
+.top_bottom_scroll_button:hover {
     opacity: 0.5;
 }
 
-.top_bottom_scroll_button img{
+.top_bottom_scroll_button img {
     margin-top: 5px;
     width: 30px;
     height: 30px;
@@ -125,7 +133,7 @@ html {
 }
 
 
-.beginner_scroll_button{
+.beginner_scroll_button {
     display: block;
     color: #ffffff;
     border-radius: 100%;
@@ -141,26 +149,27 @@ html {
     cursor: pointer;
 }
 
-.beginner_scroll_button:hover{
+.beginner_scroll_button:hover {
     background-color: #333333;
 }
-.beginner_scroll_button_img_area{
+
+.beginner_scroll_button_img_area {
     margin-top: 0px;
 }
 
-.beginner_scroll_button_img_area img{
+.beginner_scroll_button_img_area img {
     width: 50px;
     height: 50px;
     object-fit: contain;
 }
 
-.beginner_scroll_button_text{
+.beginner_scroll_button_text {
     margin-top: 5px;
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-.beginner_scroll_button_icon img{
+.beginner_scroll_button_icon img {
     width: 20px;
     height: 20px;
     object-fit: contain;
@@ -168,35 +177,37 @@ html {
 
 /*肉と銀シャリエリア*/
 
-.content02_area_pc { 
+.content02_area_pc {
     background-color: #000000;
     width: 100%;
     text-align: center;
 }
-.content02_area_pc img{
+
+.content02_area_pc img {
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
 
-.content02_area_sp{
+.content02_area_sp {
     background-color: #000000;
     width: 100%;
     text-align: center;
 }
-.content02_area_sp img{
+
+.content02_area_sp img {
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
 
-.content02_area_sp{
+.content02_area_sp {
     display: none;
 }
 
 
 /*初めての方へ*/
-.hajimete_title_area{
+.hajimete_title_area {
     width: 100%;
     height: 150px;
     text-align: center;
@@ -205,14 +216,15 @@ html {
 
 }
 
-.hajimete_back_title{
+.hajimete_back_title {
     color: darkgray;
     opacity: 0.4;
     font-size: 8em;
     display: inline-block;
     font-family: 'ten_mincho';
 }
-.hajimete_title{
+
+.hajimete_title {
     position: absolute;
     top: 75px;
     left: 0;
@@ -224,20 +236,20 @@ html {
     font-size: 30px;
 }
 
-.co3_text01{
+.co3_text01 {
     width: 100%;
     text-align: center;
     margin-top: 14px;
     font-size: 1.5vw;
 }
 
-.co3_list{
+.co3_list {
     list-style-type: none;
     margin: 55px 60px 88px 30px;
     width: calc(100% - 150px);
 }
 
-.co3_list_item{
+.co3_list_item {
     position: relative;
     width: 100%;
     list-style: none;
@@ -256,15 +268,15 @@ html {
     transition: background-color 0.2s linear;
 
     /*枠線シャドウ*/
-    border:1px solid #EEE;
-    box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
-    -webkit-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
-    -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+    border: 1px solid #EEE;
+    box-shadow: rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+    -webkit-box-shadow: rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+    -moz-box-shadow: rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
     max-width: 1500px;
 }
 
 /*店長のキャラクター*/
-.co3_character_img_area{
+.co3_character_img_area {
     width: 200px;
     height: 200px;
     position: absolute;
@@ -273,13 +285,13 @@ html {
 
 }
 
-.co3_character_img_area img{
+.co3_character_img_area img {
     width: 100% !important;
     height: 100% !important;
     object-fit: contain !important;
 }
 
-.co3_number{
+.co3_number {
     border-radius: 100%;
     width: 50px;
     height: 50px;
@@ -292,13 +304,13 @@ html {
 }
 
 
-.co3_step_text{
+.co3_step_text {
     font-size: 5px;
     margin-top: 0px;
     text-align: center;
 }
 
-.co3_number_text{
+.co3_number_text {
     display: inline-block;
     font-size: 40px;
     font-family: 'ten_mincho';
@@ -306,7 +318,7 @@ html {
 }
 
 
-.co3_list_item_left{
+.co3_list_item_left {
     box-sizing: border-box;
     display: -webkit-flex;
     display: flex;
@@ -320,7 +332,8 @@ html {
     line-height: 1.2em;
     min-height: 44px;
 }
-.co3_list_item_center{
+
+.co3_list_item_center {
     box-sizing: border-box;
     display: -webkit-flex;
     display: flex;
@@ -346,7 +359,7 @@ html {
     min-height: 44px;
 }
 
-.co3_list_item_right{
+.co3_list_item_right {
     box-sizing: border-box;
     display: -webkit-flex;
     display: flex;
@@ -366,29 +379,29 @@ html {
     min-height: 44px;
 }
 
-.co3_img01{
+.co3_img01 {
     padding-right: 15px;
 }
 
-.co3_img{
+.co3_img {
     width: 200px !important;
-    height: 200px !important; 
+    height: 200px !important;
     object-fit: cover !important;
-} 
+}
 
-.co3_text{
+.co3_text {
     line-height: 2em;
     display: inline-block;
     padding-top: 24px;
 }
 
-.co3_maka_text{
-    background:linear-gradient(transparent 60%, #f2df3c 60%);
+.co3_maka_text {
+    background: linear-gradient(transparent 60%, #f2df3c 60%);
     font-weight: bolder;
     font-size: 20px;
 }
 
-.co3_down_icon_area{
+.co3_down_icon_area {
     padding: 55px 0;
     font-size: 3em;
     text-align: center;
@@ -396,17 +409,18 @@ html {
     width: 100%;
     box-sizing: content-box;
 }
-.co3_down_icon_area img{
+
+.co3_down_icon_area img {
     object-fit: contain;
     width: 50px;
     height: 100%;
 }
 
 
-.co3_midasi_text{
+.co3_midasi_text {
     background-image: url('https://www.venture-foods.com/wp-content/uploads/2022/01/content03_hukidasi.png');
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
     width: 90px;
     height: 90px;
@@ -422,18 +436,18 @@ html {
 
 
 /*メニュー*/
-.co4_area{
+.co4_area {
     background-color: #000000;
     box-sizing: border-box;
     height: auto;
-    border-top:1px solid transparent;
+    border-top: 1px solid transparent;
 }
 
-.co4_title{
+.co4_title {
     color: #ffffff;
 }
 
-.co4_big_menu_area{
+.co4_big_menu_area {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -442,18 +456,18 @@ html {
     width: 100%;
 }
 
-.co4_big_menu_area_sp{
+.co4_big_menu_area_sp {
     display: none;
 }
 
-.co4_big_menu_image_area{
+.co4_big_menu_image_area {
     width: 50% !important;
     text-align: right;
     margin-right: 0px;
     position: relative;
 }
 
-.co4_img{
+.co4_img {
     object-fit: contain !important;
     width: 100% !important;
     height: 100% !important;
@@ -462,46 +476,46 @@ html {
     position: relative;
 }
 
-.co4_big_menu_text_area{
+.co4_big_menu_text_area {
     color: #ffffff;
-    width:  30% !important;
+    width: 30% !important;
     text-align: center;
     justify-content: center;
     margin-left: -3%;
 }
 
-.co4_big_menu_text_area02{
+.co4_big_menu_text_area02 {
     color: #ffffff;
-    width:  30% !important;
+    width: 30% !important;
     text-align: center;
     justify-content: center;
 }
 
-.co4_big_menu_sub_name_text01{
+.co4_big_menu_sub_name_text01 {
     font-family: 'ten_mincho';
     margin-bottom: -5px;
     font-size: 16px;
     letter-spacing: 5px;
 }
 
-.co4_big_menu_name{
+.co4_big_menu_name {
     font-size: 3vw;
     font-weight: bold;
     font-family: 'ten_mincho';
 }
 
-.co4_big_menu_sub_name_text02{
+.co4_big_menu_sub_name_text02 {
     font-size: 1.5vw;
     font-weight: bolder;
     margin-top: -10px;
     font-family: 'ten_mincho';
 }
 
-.co4_big_menu_sab_menu_title{
+.co4_big_menu_sab_menu_title {
     margin-top: 20px;
 }
 
-.co4_big_menu_sab_menu_title span{
+.co4_big_menu_sab_menu_title span {
     padding: 7px 24px;
     border-radius: 20px;
     font-weight: bolder;
@@ -509,7 +523,7 @@ html {
     position: relative;
 }
 
-.co4_big_menu_sab_text_area{
+.co4_big_menu_sab_text_area {
     display: flex;
     flex-wrap: wrap;
     border: solid 2px #ffffff;
@@ -522,52 +536,54 @@ html {
     font-size: 1.5vw;
 }
 
-.co4_big_menu_sab_text_area div{
+.co4_big_menu_sab_text_area div {
     width: 50%;
     margin-bottom: 10px;
 }
 
 
-.co4_big_menu_sab_gram_text{
+.co4_big_menu_sab_gram_text {
     display: inline-block;
     padding-right: 14px;
     font-weight: bolder;
     font-size: 1.2vw;
 }
 
-.zeikomi_text{
+.zeikomi_text {
     font-size: 14px;
 }
 
-.co4_big_menu_cara_area{
+.co4_big_menu_cara_area {
     width: 10%;
 }
 
 
-.co4_menu_area{
+.co4_menu_area {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
     margin: 40px 5% 50px 5%;
 }
 
-.co4_menu_box{
+.co4_menu_box {
     width: 30%;
     min-width: 400px;
     padding: 50px 20px 50px 20px;
-    border-bottom:1px solid rgba(169, 169, 169, 0.5);
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5);
 }
 
-.co4_menu_box02{
+.co4_menu_box02 {
     width: calc(50% - 40px) !important;
     min-width: 400px;
     padding: 50px 20px 50px 20px;
-    border-bottom:1px solid rgba(169, 169, 169, 0.5);
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5);
 }
-.co4_menu_last_box02{
+
+.co4_menu_last_box02 {
     border-bottom: none !important;
 }
-.co4_menu_box03{
+
+.co4_menu_box03 {
     width: 100% !important;
     min-width: 400px;
     padding: 0 0 20px 0;
@@ -575,36 +591,37 @@ html {
     margin-bottom: 110px;
 }
 
-.co4_menu_img_area{
+.co4_menu_img_area {
     width: 400px;
     height: 400px;
     margin: 0 auto 0 auto;
 }
 
-.co4_menu_img_area02{
+.co4_menu_img_area02 {
     width: 400px;
     height: 400px;
     margin: 0 auto;
 }
 
 
-.co4_text_area{
+.co4_text_area {
     width: 100%;
     margin: -30px auto 0 auto;
     text-align: center;
 }
 
-.co4_text_box{
+.co4_text_box {
     display: inline-block;
     text-align: left;
     width: 100%;
 }
-.co4_text_box02{
+
+.co4_text_box02 {
     display: inline-block;
     text-align: left;
 }
 
-.co4_menu_name{
+.co4_menu_name {
     color: #fafafa;
     font-weight: bolder;
     width: 100%;
@@ -617,19 +634,19 @@ html {
     font-family: 'ten_mincho';
 }
 
-.co4_menu_sab_menu_title{
+.co4_menu_sab_menu_title {
     margin-top: 20px;
     color: #ffffff;
     display: inline-block;
 }
 
-.co4_menu_sab_menu_title span{
+.co4_menu_sab_menu_title span {
     padding: 3.5px 20px;
     border-radius: 20px;
     font-weight: bolder;
 }
 
-.co4_menu_sab_text_area{
+.co4_menu_sab_text_area {
     display: flex;
     flex-wrap: wrap;
     font-weight: bolder;
@@ -638,23 +655,25 @@ html {
     width: 100%;
 }
 
-.co4_menu_sab_text_area div{
+.co4_menu_sab_text_area div {
     width: 100%;
     margin-bottom: 10px;
     color: #ffffff;
 }
-.co4_menu_sab_text_area02 div{
-    width: 50%;
-}
-.co4_menu_sab_text_area03 div{
+
+.co4_menu_sab_text_area02 div {
     width: 50%;
 }
 
-.drinku_menu_title{
+.co4_menu_sab_text_area03 div {
+    width: 50%;
+}
+
+.drinku_menu_title {
     margin-top: 0;
 }
 
-.co4_drink_area{
+.co4_drink_area {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -664,7 +683,8 @@ html {
     font-size: 20px;
 
 }
-.co4_drink_area_sp{
+
+.co4_drink_area_sp {
     display: none;
     width: calc(100% - 40px);
     margin: 0 20px;
@@ -672,7 +692,8 @@ html {
     align-items: center;
     flex-wrap: wrap;
 }
-.co4_drink_box{
+
+.co4_drink_box {
     width: calc(100% / 6);
     margin-bottom: 25px;
     min-width: 200px;
@@ -686,14 +707,15 @@ html {
     margin-bottom: 0;
 }
 
-.co4_drink_box_sp{
+.co4_drink_box_sp {
     width: calc(100% / 3);
     min-width: 100px;
     margin: 5px 0;
     text-align: center;
     font-size: 10px;
 }
-.co4_drink_area_sp div:nth-child(7){
+
+.co4_drink_area_sp div:nth-child(7) {
     width: 100%;
 }
 
@@ -701,7 +723,7 @@ html {
 
 /*新着情報*/
 
-.co4_list_item{
+.co4_list_item {
     position: relative;
     width: 100%;
     list-style: none;
@@ -720,26 +742,28 @@ html {
     transition: background-color 0.2s linear;
 
     /*枠線シャドウ*/
-    border:2px solid #000000;
+    border: 2px solid #000000;
     max-width: 1500px;
 
 }
 
-.co5_list_item_center{
+.co5_list_item_center {
     align-items: center;
     width: calc(100% - 50px);
 
 }
-.co5_list_item_right{
+
+.co5_list_item_right {
     width: 50px;
 }
 
 
-.co5_date_text{
+.co5_date_text {
     color: #000000;
     width: 100px;
 }
-.co5_osirase_text{
+
+.co5_osirase_text {
     display: inline-block;
     background-color: #000000;
     color: #ffffff;
@@ -749,38 +773,45 @@ html {
     width: 100px;
     text-align: center;
 }
-.co5_text{
+
+.co5_text {
     max-width: 60%;
     letter-spacing: 3px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.co5_a{
+
+.co5_a {
     width: 100%;
     text-decoration: none !important;
 }
-.co4_list_item:hover{
+
+.co4_list_item:hover {
     background-color: #000000;
-  
+
 }
-.co4_list_item:hover .co5_date_text{
-    color: #ffffff;
-}
-.co4_list_item:hover .co5_osirase_text{
-    background-color: #ffffff;
-    color: #000000;
-}
-.co4_list_item:hover .co5_text{
+
+.co4_list_item:hover .co5_date_text {
     color: #ffffff;
 }
 
-.co5_itiran{
+.co4_list_item:hover .co5_osirase_text {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.co4_list_item:hover .co5_text {
+    color: #ffffff;
+}
+
+.co5_itiran {
     width: 100%;
     text-align: center;
     margin-bottom: 90px;
 }
-.co5_itiran span{
+
+.co5_itiran span {
     display: inline-block;
     padding: 20px 120px;
     color: #fafafa;
@@ -789,7 +820,8 @@ html {
     font-weight: bolder;
     cursor: pointer;
 }
-.co5_itiran span:hover{
+
+.co5_itiran span:hover {
     background-color: #e60012;
     color: #ffffff;
     transition: 0.3s;
@@ -807,40 +839,41 @@ html {
     /*background-image: url('https://www.venture-foods.com/wp-content/uploads/2022/01/Ice.png');*/
     /*background-image: url('https://www.venture-foods.com/wp-content/uploads/2022/01/prarax.jpg');*/
     /*background-image: url('https://www.venture-foods.com/wp-content/uploads/2022/01/prarax02.jpg');*/
-    background-image: url('../img/prarax.jpg');
+    background-image: url('./img/prarax.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-   
+
 /*店舗情報*/
-.co6_area{
+.co6_area {
     display: flex;
     width: 100%;
 
     justify-content: center;
-    margin-top : 100px;
+    margin-top: 100px;
 }
-.co6_img_area{
+
+.co6_img_area {
     width: 700px;
     height: 569px;
 }
 
-.co6_img{
+.co6_img {
     object-fit: cover !important;
     width: 100% !important;
     height: 100% !important;
     max-height: 900px !important;
 }
 
-.co6_text_area{
+.co6_text_area {
     width: calc(100% - 780px);
     padding: 40px 200px 40px 0;
 }
 
-.co6_list_item{
+.co6_list_item {
     position: relative;
     width: 100%;
     list-style: none;
@@ -859,38 +892,41 @@ html {
     transition: background-color 0.2s linear;
 
     /*枠線シャドウ*/
-    border-bottom:1px solid rgba(169, 169, 169, 0.5);
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5);
 }
 
-.co6_list_item_noborder{
+.co6_list_item_noborder {
     border: none;
 }
 
-.co6_list_item_text_area{
+.co6_list_item_text_area {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
 }
-.co6_list_item_text_area div:nth-child(1){
+
+.co6_list_item_text_area div:nth-child(1) {
     width: 100px;
-    
+
 }
-.co6_list_item_text_area div:nth-child(2){
+
+.co6_list_item_text_area div:nth-child(2) {
     display: flex;
     width: calc(100% - 100px);
 }
 
-.co6_map_area{
+.co6_map_area {
     width: 100%;
     height: 450px;
 }
-.co6_map_area iframe{
+
+.co6_map_area iframe {
     width: 100%;
 }
 
 
-.co6_saiyou_area{
+.co6_saiyou_area {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -898,7 +934,9 @@ html {
     color: #ffffff;
     background-color: #000000;
 }
-.co6_saiyou_box, .co6_media_box{
+
+.co6_saiyou_box,
+.co6_media_box {
     width: 100%;
     height: 650px;
     text-align: center;
@@ -907,14 +945,16 @@ html {
     cursor: pointer;
 }
 
-.co6_saiyou_img, .co6_media_img{
+.co6_saiyou_img,
+.co6_media_img {
     object-fit: cover !important;
     width: 100% !important;
     height: 100% !important;
-    
+
 }
 
-.co6_saiyou_box img, .co6_media_box img{
+.co6_saiyou_box img,
+.co6_media_box img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -924,34 +964,36 @@ html {
 }
 
 
-.co6_saiyou_text_area{
+.co6_saiyou_text_area {
     position: relative;
     z-index: 2;
 
 }
 
-.co6_es_title{
+.co6_es_title {
     font-size: 50px;
     padding-top: 150px;
 }
-.co6_saiyou_title{
+
+.co6_saiyou_title {
     font-size: 70px;
     padding: 30px 0 73px 0;
 }
 
 
-.co6_media_title{
+.co6_media_title {
     font-size: 70px;
     padding: 30px 0 30px 0;
     line-height: 75px;
 }
 
-.co6_a_area{
+.co6_a_area {
     width: 100%;
     text-align: center;
     margin-bottom: 90px;
 }
-.co6_a_area span{
+
+.co6_a_area span {
     display: inline-block;
     padding: 20px 120px;
     color: #fafafa;
@@ -960,40 +1002,46 @@ html {
     font-weight: bolder;
     font-size: 16px !important;
 }
-.co6_saiyou_box:hover .co6_a_area span{
+
+.co6_saiyou_box:hover .co6_a_area span {
     background-color: white;
     color: #e60012;
     transition: 0.3s;
 }
-.co6_saiyou_box:hover .co6_saiyou_img{
+
+.co6_saiyou_box:hover .co6_saiyou_img {
     -ms-filter: blur(5px);
-    filter: blur(5px) ;
+    filter: blur(5px);
     transition: 0.1s;
 }
-.co6_media_box:hover .co6_a_area span{
+
+.co6_media_box:hover .co6_a_area span {
     background-color: white;
     color: #e60012;
     transition: 0.3s;
 }
-.co6_media_box:hover .co6_media_img{
+
+.co6_media_box:hover .co6_media_img {
     -ms-filter: blur(5px);
-    filter: blur(5px) ;
+    filter: blur(5px);
     transition: 0.1s;
 }
 
 
-.co6_bottom_title_area{
+.co6_bottom_title_area {
     padding-top: 55px;
     width: 100%;
-    background : #000000;
+    background: #000000;
     text-align: center;
 }
-.co6_bottom_logo_img{
+
+.co6_bottom_logo_img {
     object-fit: contain !important;
     width: 267px !important;
-    height: 49px; 
+    height: 49px;
 }
-.co6_last_text{
+
+.co6_last_text {
     padding-top: 40px;
     color: #ffffff;
     font-weight: bolder;
@@ -1006,20 +1054,22 @@ html {
 
 
 /*ヘッダー*/
-.header_pc{
+.header_pc {
     -webkit-position: sticky;
     position: sticky;
     top: 0;
     z-index: 2;
 }
-.header_sp{
+
+.header_sp {
     -webkit-position: sticky;
     position: sticky;
     top: 0;
     display: none;
     z-index: 2;
 }
-.header_area_pc{
+
+.header_area_pc {
     width: calc(100% - 200px);
     height: 60px;
     background-color: #ffffff;
@@ -1028,34 +1078,42 @@ html {
     align-items: center;
     padding: 10px 100px;
 }
-.header_area_pc button, .header_area_sp button{
+
+.header_area_pc button,
+.header_area_sp button {
     cursor: pointer;
 }
 
-.header_area_pc_kotei{
+.header_area_pc_kotei {
     position: fixed;
-    z-index: 999;/*最前面へ*/
-    top:0;/*位置指定*/
-    left:0;/*位置指定*/
+    z-index: 999;
+    /*最前面へ*/
+    top: 0;
+    /*位置指定*/
+    left: 0;
+    /*位置指定*/
 }
-.header_area_pc div{
+
+.header_area_pc div {
     width: calc(100% / 6);
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left: solid 2px rgba(14, 14,14, 0.5);
+    border-left: solid 2px rgba(14, 14, 14, 0.5);
     transition: 0.3s;
 }
+
 .header_area_pc div:nth-child(1) {
     border-left: none;
-    
+
 }
-.header_area_pc button:hover{
+
+.header_area_pc button:hover {
     color: #e60012;
 }
 
-.header_area_pc button{
+.header_area_pc button {
     background-color: transparent;
     font-size: 1vw;
     font-weight: bolder;
@@ -1065,7 +1123,7 @@ html {
     transition: 0.3s;
 }
 
-.header_area_sp{
+.header_area_sp {
     width: 100% !important;
     height: 55px;
     background-color: #ffffff;
@@ -1077,35 +1135,42 @@ html {
     top: 0;
 }
 
-.header_area_sp_kotei{
+.header_area_sp_kotei {
     position: fixed;
-    z-index: 999;/*最前面へ*/
-    top:0;/*位置指定*/
-    left:0;/*位置指定*/
+    z-index: 999;
+    /*最前面へ*/
+    top: 0;
+    /*位置指定*/
+    left: 0;
+    /*位置指定*/
 }
-.header_area_sp div{
+
+.header_area_sp div {
     width: calc((100% / 2) - 50px);
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left: solid 1px rgba(169, 169,169, 0.5);
+    border-left: solid 1px rgba(169, 169, 169, 0.5);
     transition: 0.3s;
     height: 100% !important;
 }
-.header_area_sp div:nth-child(3){
+
+.header_area_sp div:nth-child(3) {
     width: 50px;
     text-align: center;
 }
+
 .header_area_sp div:nth-child(1) {
     border-left: none;
-    
+
 }
-.header_area_sp button:hover{
+
+.header_area_sp button:hover {
     color: #e60012;
 }
 
-.header_area_sp button{
+.header_area_sp button {
     background-color: transparent;
     font-size: 1vw;
     font-weight: bolder;
@@ -1117,32 +1182,34 @@ html {
     text-align: center;
 }
 
-.header_area_sp button img{
+.header_area_sp button img {
     width: 100%;
     height: 100%;
     object-fit: contain;
     margin-right: -20px;
 }
- 
-.header_sp_menu_button:active{
+
+.header_sp_menu_button:active {
     opacity: .3;
 }
 
 /**/
-.header_sp_right{
+.header_sp_right {
     width: calc(100% - 20%);
     margin-left: 20%;
     position: fixed;
     top: 0;
     z-index: 3;
 }
-.header_sp_menu_right_content_area{
+
+.header_sp_menu_right_content_area {
     background-color: #131313;
     width: 100%;
     border: solid 1px transparent;
     position: relative;
 }
-.hpmrc_close_button_area{
+
+.hpmrc_close_button_area {
     width: 35px;
     height: 35px;
     position: absolute;
@@ -1150,58 +1217,64 @@ html {
     right: 15px;
 
 }
-.hpmrc_close_button_area button{
+
+.hpmrc_close_button_area button {
     background-color: transparent;
     outline: none;
     border: none;
-    
+
 }
-.hpmrc_close_button_area button:active{
+
+.hpmrc_close_button_area button:active {
     opacity: .5;
-    
+
 }
-.hpmrc_close_button_area img{
-   width: 100%;
-   height: 100%;
+
+.hpmrc_close_button_area img {
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
-.hpmrc_img_area{
+.hpmrc_img_area {
     width: 100%;
     padding-top: 20px;
     height: 50px;
     text-align: left;
 }
-.hpmrc_img_area img{
+
+.hpmrc_img_area img {
     width: 200px;
     height: 100%;
     padding-left: 25px;
     object-fit: contain;
 }
-.hpmrc_text_area{
+
+.hpmrc_text_area {
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
 
-.hpmrc_text_box{
+.hpmrc_text_box {
     display: flex;
-    width:  calc(100% - 20%);
+    width: calc(100% - 20%);
     margin: 0 10%;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     font-size: 16px;
 }
-.hpmrc_text_box div{
-   
-    color : #ffffff;
+
+.hpmrc_text_box div {
+
+    color: #ffffff;
     width: 100%;
     height: 40px;
-    
+
 }
 
-.hpmrc_button_area{
+.hpmrc_button_area {
     width: 100%;
     text-align: center;
     box-sizing: border-box;
@@ -1211,27 +1284,29 @@ html {
     color: #ffffff;
     background-color: #e60012;
     width: calc(100% - 20%);
-    margin:  0 10%;
+    margin: 0 10%;
     border-radius: 40px;
     padding: 15px 0;
 }
 
-.hpmrc_media{
+.hpmrc_media {
     color: #ffffff;
     background-color: #e60012;
     width: calc(100% - 20%);
-    margin:  15px 10% 30px 10%;
+    margin: 15px 10% 30px 10%;
     border-radius: 40px;
     padding: 15px 0;
 
 }
 
-.hpmrc_text_box:active{
-    opacity: .5; 
+.hpmrc_text_box:active {
+    opacity: .5;
 }
-.hpmrc_ja_text{
+
+.hpmrc_ja_text {
     padding-top: 10px;
 }
-.hpmrc_es_text{
+
+.hpmrc_es_text {
     font-size: 24px;
 }
