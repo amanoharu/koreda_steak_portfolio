@@ -1,0 +1,570 @@
+@media screen and (max-width: 1500px) {
+	/* 1500px以下に適用されるCSS（タブレット用） */
+
+    .co4_menu_box{
+        width: calc(50% - 40px) !important;
+    }
+    .co6_img_area{
+        width: 100%;
+        object-fit: contain;
+    }
+    .co4_big_menu_sab_gram_text{
+        font-size: 16px;
+    }
+    .co6_text_area{
+        width: calc(100% - 100px);
+        padding: 40px 50px 40px 50px;
+    }
+    .co6_a_area span{
+        display: inline-block;
+        padding: 20px 70px;
+        color: #fafafa;
+        border-radius: 200px;
+        background-color: #e60012;
+        font-weight: bolder;
+        font-size: 1vw;
+    }
+
+    
+}
+
+@media screen and (max-width: 1320px) {
+    .co4_drink_area div {
+        display: inline;
+    }
+	/* 1320px以下に適用されるCSS（タブレット用） */
+    .co4_big_menu_sab_gram_text{
+        width: 100%;
+    }
+    
+    .co4_drink_area{
+        width: calc(100% - 300px);
+        margin: 40px 100px 0 200px;
+    }
+    .co4_drink_box{
+        width: calc(100% / 4);
+    }
+    
+    
+}
+
+@media screen and (max-width: 1200px) {
+	/* 1320px以下に適用されるCSS（タブレット用） */
+    .co4_drink_area{
+        width: calc(100% - 350px);
+        margin: 60px 100px 0 250px;
+    } 
+}
+@media screen and (max-width: 1100px) {
+	/* 1320px以下に適用されるCSS（タブレット用） */
+    .co4_drink_area{
+        width: calc(100% - 300px);
+        margin: 60px 100px 0 200px;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+	/* 1000px以下に適用されるCSS（タブレット用） */
+
+    .co3_list_item{
+        display: block;
+    }
+    .co3_list_item_left{
+        box-sizing: border-box;
+    }
+    .co3_img{
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .co4_big_menu_sab_text_area{
+        display: block;
+        text-align: center;
+    }
+    .co4_big_menu_sab_text_area div{
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .co4_big_menu_sab_gram_text{
+        width: 100%;
+    }
+    .co4_menu_area{
+        display: flex;
+    }
+    .co4_menu_box{
+        width: calc(50% - 40px);
+        min-width: auto;
+        padding: 50px 20px 50px 20px;
+    }
+    
+    .co4_menu_box02{
+        min-width: auto;
+        width: 100%;
+    }
+    .co4_menu_img_area{
+        width: 100%;
+        height: 312px !important;
+        min-height: 312px !important;
+    }
+
+
+    .co4_menu_img_area02{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        min-height: 280px;
+    }
+
+    .co4_big_menu_sub_name_text01 {
+        font-family: 'ten_mincho';
+        letter-spacing: 0;
+        font-size: 12px;
+    }
+
+    .co4_big_menu_sab_menu_title span{
+        font-size: 1.5vw;
+    }
+
+    .co4_big_menu_name{
+        font-size: 30px !important;
+    }
+
+    .co4_big_menu_sub_name_text02{
+        font-size: 2vw;
+        padding-top: 10px;
+    }
+
+    .co4_text_area{
+        position: relative;
+        z-index: 2;
+    }
+
+
+    .co4_drink_area{
+        width: calc(100% - 200px);
+        margin: 60px 100px 0 100px;
+    }
+    .co4_drink_box{
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        
+    }
+    .co5_text{
+        margin-top: 20px;
+        width: 100%;
+        max-width: 550px;
+    }
+    .parallax-bg{
+        height: 400px;
+    }
+    .co6_area{
+        display: block;
+    }
+    .co6_img_area{
+        width: 100%;
+        object-fit: contain;
+    }
+    .co6_text_area{
+        width: calc(100% - 100px);
+        padding: 40px 50px 40px 50px;
+    }
+    .co6_es_title{
+       
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .co6_saiyou_area{
+        display: block;
+    }
+    .co6_a_area span{
+        display: inline-block;
+        padding: 20px 100px;
+        color: #fafafa;
+        border-radius: 200px;
+        background-color: #e60012;
+        font-weight: bolder;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .top_flex_area{
+        display: block;
+    }
+    .top_flex_area .top_midasi_img_area{
+        width: 100%;
+        height: 200px;
+    }
+    .top_flex_area img{
+        height: 100%;
+    }
+    .top_midasi_area{
+        width: 100% !important;
+        height: auto;
+    }
+
+    .top_logo_area{
+        margin-top: 0;
+        padding-top: 20px;
+        height: 30px !important;
+    }
+    .top_logo{
+        height: 30px !important;
+    }
+
+    .top_midasi{
+    
+        width: 100% !important;
+        text-align: center;
+        writing-mode:horizontal-tb;
+        display: block;
+        padding-bottom: 30px;
+        font-size: 40px;
+    }
+    .top_scroll_button_area{
+        display: none;
+    }
+    .beginner_scroll_button{
+        width: 90px;
+        height: 90px;
+        bottom: 10px;
+        right: 10px;
+    }
+    .beginner_scroll_button_img_area img{
+        width: 30px;
+        height: 30px;
+    }
+    .beginner_scroll_button_text{
+        font-size: 1.3vw;
+        margin-bottom: 5px;
+    }
+  
+    .beginner_scroll_button_icon img{
+        width: 15px;
+        height: 15px;
+    }
+    .content02_area_pc{
+        display: none;
+    }
+    .content02_area_sp{
+        display: block;
+    }
+
+    /**/
+    .header_pc{
+        display: none;
+    }
+    .header_sp{
+        display: flex;
+    }
+    /**/
+
+    .hajimete_title_area{
+        height: 75px;
+    }
+    .hajimete_back_title{
+        font-size: 50px;
+    }
+    .hajimete_title{
+
+        position: absolute;
+        top: 24px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    .co3_character_img_area{
+        display: none;
+    }
+    .co3_list{
+        list-style-type: none;
+        margin: 22.5px 14px 22.5px 14px;
+        width: calc(100% - 28px);
+        padding: 0;
+    }
+
+    .co3_list_item{
+        padding-left: 14px;
+        padding-right: 14px !important;
+    }
+    .co3_list_item_left{
+        padding-right: 0;
+    }
+
+    .co3_img{
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .co3_number{
+        width: 30px;
+        height: 30px;
+        padding: 14px;
+        top: -20px;
+        left: -10px;
+    }
+    .co3_step_text{
+        font-size: 2px;
+        letter-spacing: 0;
+        margin-top: -5px;
+    }
+    .co3_number_text{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: -6px;
+    }
+
+    .co3_midasi_text{
+        width: 60px;
+        height: 60px;
+        top: 130px;
+        right: -14px;
+        font-size: 1vw;
+    }
+
+    .co3_down_icon_area{
+        padding: 22.5px 0;
+        font-size: 3em;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        box-sizing: content-box;
+    }
+    .co3_down_icon_area img{
+        object-fit: contain;
+        width: 50px;
+        height: 100%;
+    }
+
+    /**/
+
+    .co4_big_menu_area{
+        display: block;
+    }
+
+    .co4_big_menu_area{
+        display: none;
+    }
+
+    .co4_big_menu_area_sp{
+        display: block;
+        width: 100%;
+    }
+    .co4_big_menu_image_area{
+        width: calc(100% - 20px) !important;
+        margin: 0 20px 0 0;
+    }
+    .co4_big_menu_text_area{
+        color: #ffffff;
+        width:  calc(100% - 100px) !important;
+        margin: -100px 20px 0 80px;
+        position: relative;
+        z-index: 1;
+    }
+    .co4_big_menu_text_area02{
+        color: #ffffff;
+        width:  calc(100% - 100px) !important;
+        margin: -100px 80px 0 20px;
+        position: relative;
+        z-index: 1;
+    }
+    .co4_big_menu_sub_name_text01{
+        font-size: 20px;
+    }
+    .co4_big_menu_name{
+        font-size: 30px !important;
+    }
+    .co4_big_menu_sub_name_text02{
+        font-size: 20px;
+        margin-top: 2.5px;
+        margin-bottom: -3px;
+    }
+    .co4_big_menu_sab_menu_title{
+        font-size: 12px;
+    }
+
+    .co4_big_menu_sab_text_area{
+        display: flex;
+        width: auto;
+    }
+    .co4_big_menu_sab_text_area div{
+        width: 50%;
+        margin-bottom: 10px;
+        font-size: 2vw !important;
+    }
+    .co4_big_menu_sab_gram_text{
+        font-size: 2vw;
+        width: auto;
+    }
+    .zeikomi_text{
+        font-size: 1vw;
+    }
+
+    .co4_menu_box{
+        padding: 30px 10px;
+        width: calc(50% - 20px) !important;
+    }
+
+    .co4_text_box{
+        position: relative;
+        z-index: 2;
+    }
+    .co4_menu_name{
+        font-size: 20px;
+        min-height: 50px;
+    }
+    .co4_menu_sab_menu_title span{
+        font-size: 1vw !important;
+        padding: 3.5px 5px;
+    }
+    .co4_menu_sab_text_area{
+        font-size: 2vw !important;
+        display: block !important;
+        min-height: 40px !important;
+    }
+    .co4_menu_sab_text_area div{
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+    .co4_img{
+        min-height: 160px;
+    }
+    .co4_sp_kaigyou{
+        width: 100%;
+        display: inline-block;
+    }
+
+    .co4_menu_box02{
+        padding: 30px 10px;
+        width: calc(50% - 20px) !important;
+    }
+    .co4_menu_img_area02{
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+    }
+
+    .co4_menu_box03{
+        min-width: auto;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .co4_drink_area{
+        display: none !important;
+    }
+    .co4_drink_area_sp{
+        display: flex;
+    }
+    
+    .co4_list_item{
+            padding: 10px 14px;
+            font-size:3vw;
+    }
+    /**/
+    .co5_list_item_right{
+        width: 25px;
+    }
+
+    .co5_date_text{
+        width: 80px;
+        font-size: 14px;
+    }
+    .co5_osirase_text{
+        padding: 5px 5px !important;
+        font-size: 1vw;
+    }
+    .co5_text {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .co5_itiran{
+        margin-bottom: 30px;
+    }
+
+    .co5_itiran span {
+        padding: 7px 60px;
+        color: #fafafa;
+        border-radius: 200px;
+        background-color: #000000;
+        font-weight: bolder;
+    }
+
+    /**/
+    .parallax-bg {
+        height: 330px;
+        margin-bottom: 30px;
+    }
+
+    /**/
+    .co6_area{
+        margin-top: 30px;
+    }
+    .co6_text_area ul{
+        padding-left: 0;
+    }
+    .co6_img_area {
+        width: calc(100% - 40px);
+        margin: 0 20px;
+        height: 300px;
+    }
+    .co6_img{
+        max-height: 300px !important;
+    }
+    .co6_text_area{
+        width: calc(100% - 40px);
+    padding: 0 20px 14px 20px;
+    }
+    .co6_list_item{
+        padding-left: 0;
+    }
+
+    /**/
+    .co6_saiyou_box, .co6_media_box {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .co6_saiyou_text_area {
+        height: 300px;
+        width: 100%;
+        min-width: auto;
+    }
+    .co6_es_title{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .co6_saiyou_title{
+        font-size: 50px;
+        padding: 20px 0 40px 0;
+    }
+    .co6_media_title{
+        font-size: 50px;
+        padding: 10px 0 30px 0;
+        line-height: 55px;
+    }
+    .co6_a_area{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .co6_a_area span{
+        padding: 14px 70px;
+        border-radius: 200px;
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .co4_menu_img_area02{
+        min-height: 80px;
+    }
+}
